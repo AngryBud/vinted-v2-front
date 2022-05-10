@@ -1,0 +1,109 @@
+.publish{
+    /* border: 2px solid purple; */
+    width:100vw;
+    padding:10vh auto;
+    padding-top: 10vh;
+    background-color: #ecedee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fillPicture{
+    width: 80vw;
+    height: 30vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-bottom: 5vh;
+    
+}
+.fillPicture .picBorder{
+    width: 75vw;
+    height: 25vh;
+    /* border: solid 2px green; */
+    margin: 2.5vh 5vh;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}
+.fillPicture input{
+    margin: auto auto;
+    width: 20%;
+    height: 20%;
+    border: 2px solid green;
+    background-color: aqua;
+}
+
+.picturePrev img{
+    width: 75vw;
+    height: 25vh;
+    border: solid 2px green;
+    /* margin: 2.5vh 5vh; */
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+h2{
+    width:50%;
+    /* margin: 10px 10px; */
+}
+.title{
+    width : 100%;
+    
+    border-bottom: 1px grey solid;
+    height: 50%;
+    display: flex;
+    padding: 10px 10px;
+    flex:1;
+}
+.input{
+    /* border: 2px solid orange; */
+    flex:1;
+    outline: none;
+    border:none;
+    height: 80%;
+    width: 100%;
+}
+.input input{
+    /* border:solid green 2px; */
+    height: 5vh;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px grey solid;
+}
+
+.fillInfos{
+    width: 80vw;
+    height: 25vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-bottom: 5vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fillDetails{
+    width: 80vw;
+    height: 50vh;
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-bottom: 5vh;
+}
+.fillDetails div{height:20%;}
+
+.fillPrice{
+    border: 2px solid red;
+    background-color: white;
+    /* margin-bottom: 5vh; */
+    width: 80vw;
+    height: 20vh;
+    /* display: flex; */
+}
+#checkbox{
+    padding-left: 50%;
+}

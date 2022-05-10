@@ -1,0 +1,63 @@
+.Checkout{
+    width: 40vw;
+    height: 60vh;
+    background-color: white;
+    /* margin-top: 10vh; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 10vh auto; */
+    /* border: 2px solid red; */
+}
+.bill{
+    width: 90%;
+    height: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.line{
+    width: 100%;
+    /* border: 2px solid blue; */
+    margin: auto;
+    display: flex;
+
+    /* flex: 1; */
+    justify-content: space-between;
+
+}
+.lineTot{
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin-top: 2vh;
+    display: flex;
+    font-weight: bold;
+    /* flex: 1; */
+    justify-content: space-between;
+
+}
+.lineRes{
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin-top: 2vh;
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-between;
+}
+.lineRes span{
+    font-weight: bold;
+}
+.cardForm{
+    width: 90%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.cardForm button{
+    margin-left: 45%;
+}

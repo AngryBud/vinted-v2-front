@@ -1,0 +1,86 @@
+/* TOP BAR HEADER (LOGO/INPUT/BUTTON) */
+.topHeader{
+    width: 100vw;
+    height: 20vh;
+    /* border: 2px solid red; */
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+  }
+  .topHeader img{
+    /* border: 2px solid green; */
+    width: 10vw;
+    padding-left: -40px;
+    object-fit: contain;
+    /* margin-top: ; */
+  }
+  .barFilter{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 3.5%;
+    width: 45%;
+    height: 100%;
+  }
+  .searchBar{
+    /* border: 2px solid orange; */
+    display: flex;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+    height: 35%;
+  }
+
+  .searchBar input{
+    display: flex;
+    /* border: 2px solid pink; */
+    flex-direction: column;
+    width: 80%;
+    outline: none;
+    border:none;
+    background-color: #F5F6F7;
+  }
+  
+  .loginSignup{
+    /* border: 2px purple solid ; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    margin-left: 30px;
+  }
+  .sell{
+    /* border: blue 2px solid; */
+    display: flex;
+    align-items: center;
+    width: 10%;
+  }
+  .loginSignup button{
+    width: 122px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #2CB1BA;
+    background-color: white;
+    color: #2CB1BA
+  }
+  #signup{
+    margin-right: 30px;
+  }
+  .sell button{
+    width: 122px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #2CB1BA;
+    border: 1px solid #2CB1BA;
+    color :white;
+  }
+  #logout{
+    width: 122px;
+    height: 32px;
+    border-radius: 5px;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    background-color: rgb(211, 108, 108);
+    border: none;
+    color :white;
+  }

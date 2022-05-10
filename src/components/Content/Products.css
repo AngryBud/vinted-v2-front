@@ -1,0 +1,91 @@
+.productPage .topHeader{
+    width: 100vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+  }
+  .productPage .topHeader img{
+    /* border: 2px solid green; */
+    width: 10vw;
+    padding-left: -40px;
+    object-fit: contain;
+  }
+  .productPage .searchBar{
+    /* border: 2px solid orange; */
+    display: flex;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+    height: 80%;
+    width: 50%;
+    margin-left: 2vw;
+  }
+  .productPage .searchBar input{
+    display: flex;
+    /* border: 2px solid pink; */
+    flex-direction: column;
+    width: 80%;
+    outline: none;
+    border:none;
+    background-color: #F5F6F7;
+  }
+  .productPage .iconBar{
+    background-color: #F5F6F7;
+    height: 80%;
+    width : 10%;
+    margin-top: 5px;
+  }
+  
+  .productPage .loginSignup{
+    /* border: 2px purple solid ; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    margin-left: 30px;
+  }
+  .productPage .sell{
+    /* border: blue 2px solid; */
+    display: flex;
+    align-items: center;
+    width: 10%;
+  }
+  .productPage .loginSignup button{
+    width: 122px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #2CB1BA;
+    background-color: white;
+    color: #2CB1BA
+  }
+  .productPage #login{
+    margin-right: 30px;
+  }
+  .productPage .sell button{
+    width: 122px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #2CB1BA;
+    border: 1px solid #2CB1BA;
+    color :white;
+  }
+  
+  .bodyProduct{
+    width: 100vw;
+    background-color: #EAEDEE;
+    padding: 30px 10%;
+    /* border: #000000 2px solid; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .bodyProduct img{
+    width: 460px;
+    height: 600px;
+  }
+  .bodyProduct .fullInfos{
+    width: 400px;
+    height: 600px;
+    background-color: white; 
+  }
+  

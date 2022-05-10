@@ -1,0 +1,43 @@
+.picHome{
+    width: 100vw;
+    height: 65vh;
+    /* border: 2px solid blue; */
+    position: relative;
+    /* padding: 25% 5%; */
+  }
+  .picHome img{
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 5vh;
+    object-fit: cover;
+  }
+  .picInfo{
+    width: 30%;
+    height: 60%;
+    background-color: white;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10vh;
+    left : 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+    border-radius: 5px;
+  }
+  .picInfo span{
+    font-size: 34px;
+    line-height: 28.3px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .picInfo button{
+    width: 60%;
+    height: 7vh;
+    background-color: #2CB1BA;
+    color: white;
+    border-radius: 5px;
+    border:none;
+  }
+
+  
